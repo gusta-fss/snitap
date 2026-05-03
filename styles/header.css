@@ -1,14 +1,6 @@
 header {
-    display: flex;
-    justify-content: center;
-
     & nav {
-        max-width: 80rem;
-        width: 100%;
-        padding: 1.25rem 2rem;
-
-        display: flex;
-        align-items: center;
+        padding-block: 2rem;
         justify-content: space-between;
 
         & img {
@@ -39,10 +31,6 @@ header {
                 background-color: var(--snitap-sun);
                 border-radius: 50%;
                 font: 500 .75rem/1.3 "Inter", sans-serif;
-
-                display: flex;
-                align-items: center;
-                justify-content: center;
             }
         }
     }
