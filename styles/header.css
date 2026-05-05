@@ -6,12 +6,6 @@ header {
         & img {
             width: 2rem;
             height: 2rem;
-
-            transition: transform 500ms;
-        }
-
-        & img[src*="logo"]:hover {
-            transform: rotate(90deg);
         }
 
         & img[src*="shopping"]:hover {

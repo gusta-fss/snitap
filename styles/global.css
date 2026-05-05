@@ -48,6 +48,17 @@ a {
     text-decoration: none;
 }
 
+& img[src*="logo"] {
+    width: 2rem;
+    height: 2rem;
+
+    transition: transform 500ms;
+
+    &:hover {
+        transform: rotate(90deg);
+    }
+}
+
 .container {
     max-width: 80rem;
     width: 100%;
