@@ -1,6 +1,5 @@
 section#banner {
     width: 100%;
-    overflow: hidden;
 
     & .scroller {
         width: 100%;
